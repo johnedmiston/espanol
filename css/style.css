@@ -1825,6 +1825,11 @@ blockquote::before {
   color: #ffffff !important;
 }
 
-.download-links{
+.download-links {
   margin: 20px 0 !important;
 }
+
+.Scan {
+  color: #fff;
+}
+

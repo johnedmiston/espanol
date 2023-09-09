@@ -102,7 +102,7 @@
                         <a class="nav-link click-scroll" href="#section_3">Acerca de</a>
                     </li>
 
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
 
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
@@ -110,7 +110,7 @@
 
                             <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item">
                         <a class="nav-link click-scroll" href="#section_6">Contact</a>
@@ -358,11 +358,18 @@
                             <br>
                             Descargue todo en un archivo comprimido <i class="bi bi-file-earmark-zip"></i> (como un sobre con todos los módulos dentro). Necesitará WinZip para descomprimirlo. No lea un documento comprimido en Internet. <i class="bi bi-download"></i> Descárguelo en su disco duro y descomprímalo ahí.
                         </p>
-                        <div class="download-links">
-                            <a href="./doc/spanishpdf.zip" target="_blank" class="btn btn-primary">Download Arquivo PDF</a>
-                            <a href="./doc/spanish_htm.zip" target="_blank" class="btn btn-primary">Download Arquivo HTML</a>
-                            <a href="./doc/spanishrtf.zip" target="_blank" class="btn btn-primary">Download Arquivo RTF</a>
+                        <div class="download-links row">
+                            <div class="col-12 col-sm-4 mb-2">
+                                <a href="./doc/spanishpdf.zip" target="_blank" class="btn btn-primary w-100">Download Arquivo PDF</a>
+                            </div>
+                            <div class="col-12 col-sm-4 mb-2">
+                                <a href="./doc/spanish_htm.zip" target="_blank" class="btn btn-primary w-100">Download Arquivo HTML</a>
+                            </div>
+                            <div class="col-12 col-sm-4 mb-2">
+                                <a href="./doc/spanishrtf.zip" target="_blank" class="btn btn-primary w-100">Download Arquivo RTF</a>
+                            </div>
                         </div>
+
                     </div>
 
 
@@ -887,30 +894,32 @@
 
                             <!-- Parte anterior do código com o método de pagamento -->
                             <div class="col-lg-12 col-12 mt-4">
-                                <h5 class="mt-4 pt-1">Choose Payment Method</h5>
-                                <div class="bank-details">
-                                    <p><strong>Bank Transfer:</strong></p>
-                                    <p>Account Name: Your Account Name</p>
-                                    <p>Account Number: 123456789</p>
-                                    <p>Bank Name: Your Bank</p>
-                                    <p>IFSC Code: XYZ1234</p>
-                                </div>
-
-                                <!-- Inserção do QR Code -->
-                                <div class="qr-code-section mt-4 text-center">
-                                    <h5>Scan QR Code for Easy Payment</h5>
-                                    <img src="images/QR_Code_Example.svg.png" alt="QR Code for Payment" />
+                                <h5 class="mt-4 pt-1">Elija el método de pago</h5>
+                                <div class="payment-details">
+                                    <p><strong>PayPal:</strong></p>
+                                    <p>Correo electrónico: <b><u>johned@aibi.ph</u></b></p>
+                                    <p>O escanee el código abajo</p>
                                 </div>
                             </div>
 
-                            <button type="button" id="submit-button" class="form-control mt-4" onclick="celebrate()">Submit Donation</button>
-                            <div id="confetti-container" class="confetti-container"></div>
-                            <div id="thank-you-message" class="thank-you-message"></div>
+                    </div>
 
 
-                        </form>
+                    <!-- Inserção do QR Code -->
+                    <div class="qr-code-section mt-4 text-center">
+                        <h5 class="Scan">Scan QR Code for Easy Payment</h5>
+                        <img src="./images/donate_qr-code.png" alt="QR Code for Payment" />
                     </div>
                 </div>
+
+                <button type="button" id="submit-button" class="form-control mt-4" onclick="celebrate()">Submit Donation</button>
+                <div id="confetti-container" class="confetti-container"></div>
+                <div id="thank-you-message" class="thank-you-message"></div>
+
+
+                </form>
+            </div>
+            </div>
             </div>
         </section>
 
@@ -929,7 +938,7 @@
 
                                 <p class="d-flex mb-2">
                                     <i class="bi-geo-alt me-2"></i>
-                                    Mailing address: AIBI-International P.O. Box 40 Rhoadesville, VA 22542
+                                    Mailing address: GlobalChristians.Org P.O. Box 40 Rhoadesville, VA 22542
                                 </p>
 
                                 <p class="d-flex mb-2">
