@@ -3,3 +3,4 @@ It should be fast, responsive, written manily in html,css and javascript and gea
 It should have an international feel. 
 The new contact person (for the Contact form) should be: Altair tabita Campusano carvajal <altairtabitacampusanocarvajal@gmail.com> 
 It is not the Antioch International Bible Institute any more it is under Cybermissions
+The email address johned@aibi.ph should beremoved as I do not speak Spanish
